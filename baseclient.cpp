@@ -94,7 +94,7 @@ int BaseClient::Authentification(int numcarte)
 
 
 		if(flag==1)
-			cout << "retirer votre carte \n";
+			cout << "retirez votre carte \n";
 		else{
 		//printf("Blink def\n");
 		cout << "Mauvais code 3fois retirer votre carte \n";
