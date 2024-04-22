@@ -1,0 +1,7 @@
+lecteurcarte.o: lecteurcarte.cpp lecteurcarte.h baseclient.h
+borne.o: borne.cpp lecteurcarte.h voyants.h timer.h recharge.h \
+ baseclient.h
+baseclient.o: baseclient.cpp baseclient.h
+timer.o: timer.cpp timer.h
+voyants.o: voyants.cpp voyants.h timer.h
+recharge.o: recharge.cpp timer.h recharge.h voyants.h
